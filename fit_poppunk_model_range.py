@@ -27,6 +27,7 @@ def main():
         parser.print_help()
         exit(1)
 
+    # Print options to user 
     print('User-defined parameters:')
     print(f'Output database name: {args.output}')
     print(f'Path to sample information file: {args.sample_list}')
